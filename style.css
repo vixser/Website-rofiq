@@ -1,0 +1,172 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 15px;
+  background-color: #020126;
+  color: #0c0914;
+}
+
+header {
+  border-radius: 8px 8px 0 0;
+  background-color: #0a0140;
+  color: white;
+  text-align: Left;
+  gap: 15px;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+header p {
+  margin: 5px 0 0 0;
+  font-size: 19px;
+}
+
+nav {
+  background-color: #150259;
+  border-radius: 0 0 8px 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0;
+}
+/*rill 100% no ai*/
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 12px 20px;
+  display: block;
+  font-size: 15px;
+}
+
+nav a:hover {
+  background-color: #ff9800;
+  color: white;
+}
+
+nav a.active {
+  background-color: #ff9800;
+}
+
+main {
+  max-width: 900px;
+  border-radius: 8px;
+  margin: 20px auto;
+  background-color: white;
+  padding: 25px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 13px;
+  margin-top: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+
+img {
+  max-width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 15px;
+}
+
+table td,
+table th {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+table th {
+  background-color: #2196f3;
+  color: white;
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.galeri-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.galeri-item {
+  width: calc(50% - 10px);
+  text-align: center;
+}
+
+.galeri-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border: 2px solid #ddd;
+}
+
+.galeri-item p {
+  font-size: 13px;
+  color: #555;
+  margin: 5px 0;
+}
+
+.artikel-gambar {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  margin: 15px 0;
+}
+
+h2 {
+  color: #1565c0;
+  border-bottom: 2px solid #2196f3;
+  padding-bottom: 5px;
+}
+
+h3 {
+  color: #ff9800;
+}
+
+.kontak-info {
+  background-color: #e3f2fd;
+  padding: 15px;
+  border-left: 4px solid #2196f3;
+  margin: 10px 0;
+}
+
+.kontak-info p {
+  margin: 8px 0;
+}
+
+.sosmed a {
+  color: #2196f3;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.sosmed a:hover {
+  text-decoration: underline;
+  color: #ff9800;
+}
+
+#foto-profil {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #2196f3;
+  display: block;
+  margin: 0 auto 15px auto;
+}
